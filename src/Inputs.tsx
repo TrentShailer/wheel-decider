@@ -1,4 +1,5 @@
-import { Button, Card, TextField } from "@mui/material";
+import Button from "@mui/material/Button";
+import Card from "@mui/material/Card";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import React from "react";
 import { WheelInput } from "./App";

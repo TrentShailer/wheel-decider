@@ -1,4 +1,5 @@
-import { Box, useTheme } from "@mui/material";
+import Box from "@mui/material/Box";
+import useTheme from "@mui/material/styles/useTheme";
 import React from "react";
 import { WheelInput } from "./App";
 import * as colors from "@mui/material/colors";

@@ -1,6 +1,6 @@
 services:
   server:
-    image: trentshailer/wheel-decide:latest
+    image: trentshailer/wheel-decider:latest
     ports:
       - 4004:8080
     restart: unless-stopped

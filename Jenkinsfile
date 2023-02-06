@@ -10,7 +10,7 @@ node {
 }
 
 def getVersion(){
-	def packageJSON = readJSON file: 'package.json'
+	def packageJSON = readJSON file: 'info.json'
 	def packageJSONVersion = packageJSON.version
 	return packageJSONVersion
 }

@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["cd", "packages/backend", "&&", "yarn", "start"]
+CMD ["yarn", "--cwd packages/backend", "start"]

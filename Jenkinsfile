@@ -31,6 +31,12 @@ pipeline {
 				sh 'cd packages/frontend && pnpm install'
 			}
 		}
+		stage ('Clean') {
+			steps {
+				sh 'cd packages/backend && yarn clean'
+				sh 'cd packages/frontend && pnpm run clean'
+			}
+		}
 		stage ('Build') {
 			steps {
 				sh 'cd packages/backend && yarn build'

@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node18", "npm:1.0.1"],\
             ["@types/node", "npm:18.11.19"],\
             ["fastify", "npm:4.12.0"],\
+            ["rimraf", "npm:4.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
           "linkType": "SOFT"\
@@ -248,6 +249,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node18", "npm:1.0.1"],\
             ["@types/node", "npm:18.11.19"],\
             ["fastify", "npm:4.12.0"],\
+            ["rimraf", "npm:4.1.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
           "linkType": "SOFT"\
@@ -927,6 +929,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rfdc-npm-1.3.0-272f288ad8-fb2ba8512e.zip/node_modules/rfdc/",\
           "packageDependencies": [\
             ["rfdc", "npm:1.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["rimraf", [\
+        ["npm:4.1.2", {\
+          "packageLocation": "./.yarn/cache/rimraf-npm-4.1.2-dd6c7bf72b-480b8147fd.zip/node_modules/rimraf/",\
+          "packageDependencies": [\
+            ["rimraf", "npm:4.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -117,7 +117,7 @@ export default function Wheel(props: Props) {
 
 		setTimeout(() => {
 			props.setIsSpinning(false);
-		}, 5500);
+		}, 8500);
 
 		// pick a random end angle
 		const randomAngle = Math.floor(Math.random() * 360) + 0.5;
@@ -146,7 +146,7 @@ export default function Wheel(props: Props) {
 					component={"g"}
 					sx={{
 						transform: `rotate(${wheelRotation}deg)`,
-						transition: "transform 8s cubic-bezier(.1,.73,.16,.96)",
+						transition: "transform 8s cubic-bezier(0.07, 0.9, 0.42, 0.95)",
 					}}>
 					{wheelSVG}
 				</Box>
